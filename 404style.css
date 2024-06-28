@@ -1,0 +1,42 @@
+body {    
+    font-family: "Raleway", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 100;
+    font-style: normal;
+    font-size: 100px;
+    background-color: #DDF4F8;
+    color: white;
+    text-shadow: 0ch 0 3px 3px black;
+    background-image: url(sky.png);
+    line-height: 100px;
+    margin-left: 50px;
+}
+button{
+    padding: 20px 30px;
+    color: white;
+    background-color: #E95793;
+    outline: none;
+    font-family: "Raleway", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 30px;
+    border-radius: 50px;
+    display: flex;
+    align-items: center;
+    border: none;
+    cursor: pointer;
+    transition: 0.4s;
+}
+
+button .icon {
+    margin-right: 20px; /* Расстояние между иконкой и текстом */
+    width: 40px; /* Ширина иконки */
+    height: 40px; /* Высота иконки */
+}
+
+button:hover{
+    transform: scale(1.2);
+    font-weight: 800;
+    box-shadow: 0px 0px 10px 10px rgba(233, 87, 147,0.3)
+}
